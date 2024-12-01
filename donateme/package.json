@@ -1,0 +1,17 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy -k onre0GMtgCnEcDUWV-Oas8oKBzD2F-1tqwNLsy8v27zUKCg7qzrsKuazrY1Ju7lDY2L6JuXNHoAwtcYLnxfmFg",
+    "publish": "npx thirdweb@latest publish -k onre0GMtgCnEcDUWV-Oas8oKBzD2F-1tqwNLsy8v27zUKCg7qzrsKuazrY1Ju7lDY2L6JuXNHoAwtcYLnxfmFg"
+  },
+  "devDependencies": {
+    "hardhat": "^2.3.3"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "dotenv": "^16.4.5"
+
+  }
+}
